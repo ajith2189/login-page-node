@@ -32,7 +32,7 @@ app.set("views", path.join(__dirname, "views"));
 const username = "admin";
 const password = "admin@123";
 
-// Route: Login page
+// Route: Login  page
 app.get("/", (req, res) => {
   if (req.session.user) {
     return res.redirect("/home");
