@@ -14,7 +14,7 @@ app.use(
   })
 );
 
-// Middleware to prevent caching globally
+// Middleware to prevent  caching globally
 app.use(nocache());
 
 // Middleware to parse form data
