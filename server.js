@@ -5,7 +5,7 @@ const path = require("path");
 const session = require("express-session");
 const nocache = require("nocache");
 
-// Middle  dware to handle sessions
+// Middle  dwar e to handle sessions
 app.use(
   session({
     secret: "your_secret_key",
